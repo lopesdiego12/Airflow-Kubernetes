@@ -19,7 +19,7 @@ Steps to follow
 `helm repo add stable https://charts.helm.sh/stable`
 
 # git clone my project 
-`git clone git@github.com:`
+`git clone git@github.com:lopesdiego12/Airflow-Kubernetes.git`
 
 # Deploy Apache Airflow with yaml file
 `helm install airflow stable/airflow -f config/airflow-helm-config.yaml --version 7.2.0`
